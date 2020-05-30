@@ -2,11 +2,27 @@
 <html>
 <head>
     <title>Segmented control</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <!--
         Create a segmented control that turns into a <select> for mobile screens.
         They should sync whenever any of them is changed.
     -->
+
+    <div class="main-container">
+        <div class="button-set">
+            <button data-val="1" class="active">Sort by price</button><button data-val="2">Sort by name</button><button data-val="3">Sort by relevance</button>
+        </div>
+        
+        <select name="sorting" id="">
+            <option value="1" selected>Sort by price</option>
+            <option value="2">Sort by name</option>
+            <option value="3">Sort by relevance</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

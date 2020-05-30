@@ -1,0 +1,77 @@
+* {
+  font-family: 'Roboto',sans-serif;
+}
+
+button {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #82b9f9;
+}
+
+body .main-container {
+  margin: 30px auto 0 auto;
+  width: 70%;
+  padding: 30px;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+}
+
+body .main-container select {
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 4px solid #6497f8;
+}
+
+body .main-container .button-set {
+  display: none;
+  border: 3px solid #6497f8;
+  border-radius: 5px;
+}
+
+body .main-container .button-set button {
+  margin: 0;
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  border: 0;
+}
+
+body .main-container .button-set button:hover {
+  background-color: rgba(100, 150, 250, 0.25);
+}
+
+body .main-container .button-set button.active {
+  background-color: #6497f8;
+  color: #fff;
+}
+
+body .main-container .button-set button:not(:first-child) {
+  border-left: 3px solid #6497f8;
+}
+
+@media (min-width: 768px) {
+  body .main-container .button-set {
+    display: block;
+  }
+  body .main-container select {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
