@@ -1,0 +1,79 @@
+* {
+  font-family: 'Roboto',sans-serif;
+}
+
+body {
+  background-color: #427fb4;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border: 2px solid #dedede;
+  border-radius: 10px;
+  width: 30%;
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row input {
+  border: 0;
+  border-bottom: 2px solid #dedede;
+}
+
+.container .row button {
+  border: 0;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 15px;
+}
+
+.container .row ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.container .row ul li {
+  color: #ccc;
+  font-weight: bold;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.container .row ul li.active {
+  color: #000;
+}
+
+.container .tabs .tab {
+  display: none;
+}
+
+.container .tabs .tab.active {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
