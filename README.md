@@ -1,9 +1,12 @@
-# Desafíos de programación de UIs en JavaScript
-Frontloops Elements (https://frontloops.io/) es un conjunto de desafíos de interfaces utilizando JavaScript 
-En este repo voy a realizar los 30 desafíos de Frontloops desde cero utilizando JavaScript EcmaScript 6.
+# Javascript Coding Challenges
+Frontloops Elements (https://frontloops.io/) is a set of 30 Javascript UI coding challenges.
+In this repository i'm going to code this 30 challenges using JavaScript implementing ES6 syntax and features.
+¡No JS libraries/frameworks at all! Just plain JavaScript.
 
-### LOOP 1
+
+### LEVEL 1
 
 Step 1 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step1/index.html <br/>
 Step 2 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step2/index.html <br/>
-Step 3 - ¡En progreso!
+Step 3 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step3/index.html <br/>
+Step 4 - ¡In progress!
