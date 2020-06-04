@@ -9,4 +9,5 @@ In this repository i'm going to code this 30 challenges using JavaScript impleme
 Step 1 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step1/index.html <br/>
 Step 2 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step2/index.html <br/>
 Step 3 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step3/index.html <br/>
-Step 4 - ¡In progress!
+Step 4 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step4/index.html <br/>
+Step 5 - ¡In progress!

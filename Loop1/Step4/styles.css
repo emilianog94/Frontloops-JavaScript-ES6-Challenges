@@ -1,0 +1,123 @@
+* {
+  font-family: 'Roboto',sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #844ba8;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 3px solid #ccc;
+  padding: 25px;
+}
+
+.main-container ul.step-selector {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-container ul.step-selector li.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #808080;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.main-container ul.step-selector li.item:hover {
+  color: #000;
+}
+
+.main-container ul.step-selector li.item.item-active {
+  color: #000;
+}
+
+.main-container ul.step-selector li.item.item-active span.number {
+  background-color: #427fb4;
+  color: #fff;
+}
+
+.main-container ul.step-selector li.item p {
+  margin: 0;
+}
+
+.main-container ul.step-selector li.item span.number {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  line-height: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: #808080;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.main-container .steps {
+  margin-left: 30px;
+}
+
+.main-container .steps .step {
+  display: none;
+}
+
+.main-container .steps .step.step-active {
+  display: block;
+}
+
+.main-container .steps .step button {
+  background-color: #f1f1f1;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.main-container .steps .step button:hover {
+  background-color: #ccc;
+}
+
+.main-container .steps .end {
+  display: none;
+}
+
+.main-container .steps .end.step-active {
+  display: block;
+}
+/*# sourceMappingURL=styles.css.map */
