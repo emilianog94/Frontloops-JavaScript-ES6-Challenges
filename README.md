@@ -10,4 +10,5 @@ Step 1 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop
 Step 2 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step2/index.html <br/>
 Step 3 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step3/index.html <br/>
 Step 4 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step4/index.html <br/>
-Step 5 - ¡In progress!
+Step 5 - https://emilianog94.github.io/Frontloops-JavaScript-ES6-Challenges/Loop1/Step5/index.html <br/>
+Step 6 - ¡In progress!
