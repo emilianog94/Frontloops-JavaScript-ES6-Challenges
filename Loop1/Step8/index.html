@@ -2,11 +2,32 @@
 <html>
 <head>
     <title>Side menu</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div class="overlay"></div>
     <!--
         Build a card with two buttons. Each button opens a linked side menu with content and close button.
         Clicking the close button or outside the side menu, should close it.
     -->
+
+    <div class="main-container">
+        <button role="open" data-name="search">Search</button>
+        <button role="open" data-name="run">Run</button>
+    </div>
+
+    <div class="bar search">
+        <h2>Whoa! You found me</h2>
+        <button role="close">Close</button>
+    </div>
+
+    <div class="bar run">
+        <h2>Please don't run!</h2>
+        <button role="close">Close</button>
+    </div>
+
+    <script src="./scripts.js"></script>
 </body>
 </html>
